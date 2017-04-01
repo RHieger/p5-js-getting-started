@@ -61,10 +61,21 @@ header h2 {
    margin-top: -60px;
 }
 
+p {
+   font-family: 'Alegreya', 'Times', serif;
+   font-size: 18px;
+   line-height: 24px;
+   margin-left: 15px;
+}
+
 /* Classes and ids */
 
 #logo {
    display: block;
    margin-top: -5px;
    margin-left: 15px;
+}
+
+#mainContent {
+   padding-top: 165px;
 }
