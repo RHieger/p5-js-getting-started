@@ -1,0 +1,70 @@
+/* Styling for p5.js */
+
+/* Core Styling */
+
+body {
+   width: 95%;
+   margin: 10px auto 0 auto;
+}
+
+header {
+   position: fixed;
+   height: 100px;
+   width: 95%;
+   background-color: rgba(255, 105, 180, 0.5);    /* HotPink 50% */
+   border: ridge 2px #cccccc;
+   padding: 15px 0;
+}
+
+/* Styling for Headlines */
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Alegreya Sans', 'Helvetica', sans-serif;
+   font-weight: 700;
+   color: rgb(225, 105, 180); /* HotPink */
+   margin-left: 15px;
+}
+
+h1 {
+   font-size: 3em;
+}
+
+h2 {
+   font-size: 2.25em;
+}
+
+h3 {
+   font-size: 2em;
+}
+
+h4 {
+   font-size: 1.4em;
+}
+
+h5 {
+   font-size: 1em;
+}
+
+header h1,
+header h2 {
+   color: #ffffff; /* White */
+   float: left;
+   margin-left: 145px;
+}
+
+header h1 {
+   margin-top: -110px;
+   margin-bottom: 10px;
+}
+
+header h2 {
+   margin-top: -60px;
+}
+
+/* Classes and ids */
+
+#logo {
+   display: block;
+   margin-top: -5px;
+   margin-left: 15px;
+}
