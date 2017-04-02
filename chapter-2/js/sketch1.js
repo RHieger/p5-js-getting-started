@@ -1,21 +1,15 @@
-function setup()  {
+function setup() {
 
-   createCanvas(550,120);
+   // Normally setup code for the canvas would go here.
+   // As this is the first rudimentary example, I will
+   // dispense with the setup and get right to the draw()
+   // function.
 
 }
 
-function draw()   {
+function draw() {
 
-   if (mouseIsPressed) {
-
-      fill(0);
-
-   }  else {
-
-      fill(255);
-
-   }
-
-   ellipse(mouseX, mouseY, 80, 80);
+   background(204);
+   ellipse(50,50,80,80);
 
 }

@@ -113,6 +113,13 @@ a:active {
    cursor: pointer;
 }
 
+.btn:hover {
+   color: rgb(225, 20, 147);  /* HotPink */
+   background-color: rgba(255, 255, 255, 0.5);  /* White 50% */
+   transition: background-color 0.5s;
+   transition: color 1s;
+}
+
 #logo {
    display: block;
    margin-top: -5px;
