@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
    font-weight: 700;
    color: rgb(225, 105, 180); /* HotPink */
    margin-left: 15px;
+   margin-bottom: 12px;
 }
 
 h1 {
@@ -63,12 +64,54 @@ header h2 {
 
 p {
    font-family: 'Alegreya', 'Times', serif;
-   font-size: 18px;
-   line-height: 24px;
+   color: rgba(255, 20, 147, 0.75);  /* DeepPink 75% */
+   font-size: 20px;
+   line-height: 26px;
    margin-left: 15px;
 }
 
+/* Link Styling */
+
+a {
+   text-decoration: none;
+   color: rgba(255, 20, 147, 0.75); /* DeepPink 75% */
+   display: inline-block;
+   padding: 0 10px;
+}
+
+a:visited {
+   color: rgba(255, 20, 147, 0.75); /* DeepPink 75% */
+   background-color: #ffffff;
+}
+
+a:hover {
+   color: #ffffff;
+   background-color: rgb(255, 20, 147);   /* DeepPink */
+   transition: background-color 0.75s;
+   transition: color 1s;
+}
+
+a:active {
+   color: rgba(255, 0, 0, 0.75); /* Red 75% */
+}
+
 /* Classes and ids */
+
+.btn {
+   display: block;
+   margin-top: 15px;
+   width: 150px;
+   height: 35px;
+   border: solid 2px #cccccc;
+   border-radius: 15px;
+   background-color: rgba(225, 20, 147, 0.65);  /* DeepPink 65% */
+   font-family: 'Alegreya Sans', 'Helvetica', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   color: #ffffff;
+   font-variant: small-caps;
+   cursor: pointer;
+}
 
 #logo {
    display: block;
