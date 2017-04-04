@@ -67,7 +67,9 @@ p {
    font-family: 'Alegreya', 'Times', serif;
    color: rgba(255, 20, 147, 0.75);  /* DeepPink 75% */
    font-size: 20px;
+   width: 700px;
    line-height: 26px;
+   margin-bottom: 12px;
    margin-left: 15px;
 }
 
